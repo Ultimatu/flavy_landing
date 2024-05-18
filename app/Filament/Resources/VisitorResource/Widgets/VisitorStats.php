@@ -15,7 +15,7 @@ class VisitorStats extends BaseWidget
                 ->icon('heroicon-s-eye')
                 ->chartColor('primary')
                 //chart take float array, sum visitor by day
-                ->chart($this->getVisitorByDay())
+                ->chart([4, 5, 6, 7, 8, 9, 10])
                 ->description('Nombre total de visiteurs uniques')
                 ->descriptionIcon('heroicon-s-information-circle')
                 ->descriptionColor('info')
@@ -50,7 +50,6 @@ class VisitorStats extends BaseWidget
                 ->descriptionColor('warning')
                 ->color('warning'),
             // today
-            
             Stat::make('Visiteurs Aujourd\'hui', Visitor::whereDate('created_at', now())->count())
                 ->icon('heroicon-s-eye')
                 ->description('Nombre de visiteurs aujourd\'hui')
