@@ -108,7 +108,7 @@
                                         <div><b>Contact</b></div>
                                     </a></li>
                                 <li class="menu-item bg-color h-bg-dark px-xl-3" style="padding:0;"><a
-                                        class="menu-link" href="#">
+                                        class="menu-link" href="https://drive.google.com/drive/folders/1Znkfm_j2psywJpBgAfjNc0V0OHKdPc9v?usp=sharing">
                                         <div><i class='bx bx-mobile-alt'></i><b>Télécharger <strong
                                                     style="color:black;">APK</strong> <b></b><b>FLAVY</b></b></div>
                                     </a></li>
@@ -142,7 +142,7 @@
                                 qualité, des conseils d'experts et une gamme complète de produits pharmaceutiques.</p>
                             <a href="#guide" class="button button-large button-rounded ms-0">Savoir Plus<i
                                     class='bx bx-chevrons-down'></i></a></i>
-                            <a href="#" class="button bg-transparent shadow-none" style="margin:0;">
+                            <a href="https://drive.google.com/drive/folders/1Znkfm_j2psywJpBgAfjNc0V0OHKdPc9v?usp=sharing" class="button bg-transparent shadow-none" style="margin:0;">
                                 <div class="load"> <span></span></div> <i class='bx bx-download'
                                     style="width: 40px; font-size: 40px; top: 60px; right:25px;  position:absolute; z-index:10"></i>
                             </a>
