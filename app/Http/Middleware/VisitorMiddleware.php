@@ -39,7 +39,7 @@ class VisitorMiddleware
             ]);
         } else {
             $ip = $request->ip();
-            $session_id = session()->getId();
+            $session_id = $request->session()->getId();
             Visitor::updateOrCreate([
                 'ip_address' => $ip,
                 'session_id' => $session_id
