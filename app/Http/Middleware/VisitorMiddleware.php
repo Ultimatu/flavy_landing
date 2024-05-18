@@ -76,6 +76,6 @@ class VisitorMiddleware
         }
 
         // Update if last visit was more than 30 minutes ago
-        return Carbon::now()->diffInMinutes($lastVisit) > 30;
+        return Carbon::now()->diffInMinutes($lastVisit) > 1;
     }
 }
