@@ -126,7 +126,7 @@ class VisitorResource extends Resource
                     ->searchable(),
                 Tables\Columns\TextColumn::make('user_agent')
                     ->label('Navigateur')
-                    ->icon('heroicon-s-browser')
+                    ->icon('heroicon-s-computer-desktop')
                     ->badge()
                     ->color('primary')
                     ->searchable(),
