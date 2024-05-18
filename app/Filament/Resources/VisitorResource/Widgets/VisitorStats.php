@@ -10,7 +10,6 @@ class VisitorStats extends BaseWidget
 {
     protected function getStats(): array
     {
-        dd($this->getVisitorByDay());
         return [
             Stat::make('Total Visiteurs Unique', Visitor::count())
                 ->icon('heroicon-s-eye')
