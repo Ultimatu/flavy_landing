@@ -13,6 +13,9 @@ class VisitorStats extends BaseWidget
         return [
             Stat::make('Total Visiteurs Unique', Visitor::count())
                 ->icon('heroicon-s-eye')
+                ->chartColor('primary')
+                //chart take float array, sum visitor by day
+                ->chart($this->getVisitorByDay())
                 ->description('Nombre total de visiteurs uniques')
                 ->descriptionIcon('heroicon-s-information-circle')
                 ->descriptionColor('info')
@@ -36,7 +39,7 @@ class VisitorStats extends BaseWidget
                 ->icon('heroicon-s-eye')
                 ->description('Nombre de visiteurs ce mois')
                 ->descriptionIcon('heroicon-s-information-circle')
-                ->descriptionColor('info')
+                ->descriptionColor('danger')
                 ->color('danger'),
 
             // this week
@@ -44,7 +47,7 @@ class VisitorStats extends BaseWidget
                 ->icon('heroicon-s-eye')
                 ->description('Nombre de visiteurs cette semaine')
                 ->descriptionIcon('heroicon-s-information-circle')
-                ->descriptionColor('info')
+                ->descriptionColor('warning')
                 ->color('warning'),
             // today
             
@@ -52,8 +55,19 @@ class VisitorStats extends BaseWidget
                 ->icon('heroicon-s-eye')
                 ->description('Nombre de visiteurs aujourd\'hui')
                 ->descriptionIcon('heroicon-s-information-circle')
-                ->descriptionColor('info')
+                ->descriptionColor('warning')
                 ->color('warning'),
         ];
+    }
+
+
+    protected function getVisitorByDay(): array
+    {
+        $visitorByDay = Visitor::selectRaw('DATE(created_at) as date, count(id) as total')
+            ->groupBy('date')
+            ->get()
+            ->pluck('total', 'date')
+            ->toArray();
+        return $visitorByDay;
     }
 }
