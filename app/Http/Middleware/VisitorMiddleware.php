@@ -28,7 +28,7 @@ class VisitorMiddleware
             $region = $record->mostSpecificSubdivision->name ?? null;
             $postal_code = $record->postal->code ?? null;
             $user_agent = $request->header('User-Agent');
-            $session_id = session()->getId();
+            $session_id = $request->session()->getId();
 
             $visitor = Visitor::where('ip_address', $ip_address)->where('session_id', $session_id)->first();
 
