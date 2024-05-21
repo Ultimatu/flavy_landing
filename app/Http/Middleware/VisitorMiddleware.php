@@ -57,12 +57,12 @@ class VisitorMiddleware
         $user_agent = $request->header('User-Agent');
         $session_id = $request->session()->getId();
 
-        $visitor = Visitor::where('ip', $ip_address)->where('session_id', $session_id)->first();
+        $visitor = Visitor::where('ip_address', $ip_address)->where('session_id', $session_id)->first();
 
         if (!$visitor || $this->shouldUpdateVisitor($visitor->last_visit)) {
             Visitor::updateOrCreate(
                 [
-                    'ip' => $ip_address,
+                    'ip_address' => $ip_address,
                     'session_id' => $session_id,
                 ],
                 [
@@ -81,12 +81,12 @@ class VisitorMiddleware
     {
         $ip = $request->ip();
         $session_id = $request->session()->getId();
-        $visitor = Visitor::where('ip', $ip)->where('session_id', $session_id)->first();
+        $visitor = Visitor::where('ip_address', $ip)->where('session_id', $session_id)->first();
 
         if (!$visitor || $this->shouldUpdateVisitor($visitor->last_visit)) {
             Visitor::updateOrCreate(
                 [
-                    'ip' => $ip,
+                    'ip_address' => $ip,
                     'session_id' => $session_id,
                 ],
                 [
