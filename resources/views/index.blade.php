@@ -42,7 +42,6 @@
 
     <link rel="canonical" href="https://flavy.com">
     <link rel="alternate" href="https://flavy.com" hreflang="fr">
-    <link rel="alternate" href="https://flavy.com" hreflang="en">
 
     <!-- Document Title
  ============================================= -->
@@ -76,10 +75,14 @@
                             <a href="{{ route('index') }}">
                                 <b></b>
                                 <div></div>
-                                <img class="logo-default" srcset="{{ asset('assets/images/lo.jpeg') }}, {{ asset('assets/images/lo.jpeg') }} 6x"
-                                    src="{{ asset('assets/images/lo.jpeg') }}" alt=" Logo" style="border-radius:50px;">
-                                <img class="logo-dark" srcset="{{ asset('assets/images/lo.jpeg') }}, {{ asset('assets/images/lo.jpeg') }} 6x"
-                                    src="{{ asset('assets/images/lo.jpeg') }}" alt=" Logo" style="border-radius:50px;">
+                                <img class="logo-default"
+                                    srcset="{{ asset('assets/images/lo.jpeg') }}, {{ asset('assets/images/lo.jpeg') }} 6x"
+                                    src="{{ asset('assets/images/lo.jpeg') }}" alt=" Logo"
+                                    style="border-radius:50px;">
+                                <img class="logo-dark"
+                                    srcset="{{ asset('assets/images/lo.jpeg') }}, {{ asset('assets/images/lo.jpeg') }} 6x"
+                                    src="{{ asset('assets/images/lo.jpeg') }}" alt=" Logo"
+                                    style="border-radius:50px;">
                             </a>
                         </div>
                         <!-- #logo end -->
@@ -108,7 +111,8 @@
                                         <div><b>Contact</b></div>
                                     </a></li>
                                 <li class="menu-item bg-color h-bg-dark px-xl-3" style="padding:0;"><a
-                                        class="menu-link" href="https://drive.google.com/drive/folders/1Znkfm_j2psywJpBgAfjNc0V0OHKdPc9v?usp=sharing">
+                                        class="menu-link"
+                                        href="https://drive.google.com/drive/folders/1Znkfm_j2psywJpBgAfjNc0V0OHKdPc9v?usp=sharing">
                                         <div><i class='bx bx-mobile-alt'></i><b>Télécharger <strong
                                                     style="color:black;">APK</strong> <b></b><b>FLAVY</b></b></div>
                                     </a></li>
@@ -131,24 +135,30 @@
 
                 <div class="vertical-middle">
                     <div class="container py-5">
-                        <div class="emphasis-title dark m-0">
+                        <div class="vertical-middle">
+                            <div class="container py-5">
+                                <div class="emphasis-title dark m-0">
 
-                            <h2 class="home_title"
-                                style="font-size: 40px; line-height: 1.4; font-weight: 600; text-shadow: 1px 1px 1px rgba(0,0,0,0.5);">
-                                Votre <b>Pharmacie Digital</b>,<br><em><b>Flavy</b></em>.</span></h2>
-                            <p class="fw-light d-none d-md-block" style="font-size: 16px; opacity: .9; margin:0;">
-                                Bienvenue sur le site de Flavy, votre destination en ligne pour des soins de <br> santé
-                                de
-                                qualité, des conseils d'experts et une gamme complète de produits pharmaceutiques.</p>
-                            <a href="#guide" class="button button-large button-rounded ms-0">Savoir Plus<i
-                                    class='bx bx-chevrons-down'></i></a></i>
-                            <a href="https://drive.google.com/drive/folders/1Znkfm_j2psywJpBgAfjNc0V0OHKdPc9v?usp=sharing" class="button bg-transparent shadow-none" style="margin:0;">
-                                <div class="load"> <span></span></div> <i class='bx bx-download'
-                                    style="width: 40px; font-size: 40px; top: 60px; right:25px;  position:absolute; z-index:10"></i>
-                            </a>
-                            <br><em><small style="opacity: 0.7;">Télécharger rapidement ici <br>l'application
-                                    mobile.</small></em>
+                                    <h2 class="home_title"
+                                        style="font-size: 40px; line-height: 1.4; font-weight: 600; text-shadow: 1px 1px 1px rgba(0,0,0,0.5);">
+                                        Votre <b>Pharmacie Digital</b>,<br><em><b>Flavy</b></em>.</span></h2>
+                                    <p class="fw-light d-none d-md-block"
+                                        style="font-size: 16px; opacity: .9; margin:0;">
+                                        Bienvenue sur le site de Flavy, votre destination en ligne pour des soins de
+                                        <br> santé de qualité, des conseils d'experts et une gamme complète de produits
+                                        pharmaceutiques.</p>
+                                    <a href="#guide" class="button button-large button-rounded ms-0">Savoir Plus<i
+                                            class='bx bx-chevrons-down'></i></a></i>
+                                    <a href="https://drive.google.com/drive/folders/1Znkfm_j2psywJpBgAfjNc0V0OHKdPc9v?usp=sharing"
+                                        class="button bg-transparent shadow-none" style="margin:0;">
+                                        <div class="load"> <span></span></div> <i class='bx bx-download'
+                                            style="width: 40px; font-size: 40px; top: 60px; right:25px;  position:absolute; z-index:10"></i>
+                                    </a>
+                                    <br><em><small style="opacity: 0.7;">Télécharger rapidement ici <br>l'application
+                                            mobile.</small></em>
 
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -163,30 +173,21 @@
 
                 <div class="section m-0" style="background-color: #eef2f5;">
                     <div class="container" id="apropos">
-
                         <div class="heading-block text-center border-bottom-0 mb-5 mt-4 mx-auto"
                             style="max-width: 640px">
                             <h3 class="text-transform-none font-secondary fw-normal" style="font-size: 36px;">A propos
-                                de nous
-                                !!!</h3>
+                                de nous !!!</h3>
                             <span><b style="font-size: 20px;">Chez FLAVY, notre engagement envers votre santé et votre
-                                    bien-être
-                                    est au cœur de tout ce que nous faisons. Nous sommes fiers d'être votre pharmacie
-                                    numérique
-                                    de confiance, offrant des solutions de santé en ligne pratiques et
-                                    fiables.</b></span>
+                                    bien-être est au cœur de tout ce que nous faisons. Nous sommes fiers d'être votre
+                                    pharmacie numérique de confiance, offrant des solutions de santé en ligne pratiques
+                                    et fiables.</b></span>
                             <span><b style="font-size: 20px;">Notre mission est de rendre l'accès aux soins de santé
-                                    plus
-                                    pratique que jamais. Nous croyons que tout le monde mérite des soins de santé de
-                                    qualité et
-                                    des produits pharmaceutiques fiables. C'est pourquoi nous nous efforçons de rendre
-                                    votre
-                                    expérience de magasinage en ligne agréable, sûre et sans tracas.</b></span>
+                                    plus pratique que jamais. Nous croyons que tout le monde mérite des soins de santé
+                                    de qualité et des produits pharmaceutiques fiables. C'est pourquoi nous nous
+                                    efforçons de rendre votre expérience de magasinage en ligne agréable, sûre et sans
+                                    tracas.</b></span>
 
                         </div>
-
-                        <!-- Features colomns
-      ============================================= -->
                         <div class="row align-items-stretch g-4">
                             <div class="col-lg-3 col-md-6">
                                 <div class="feature-box media-box fbox-bg h-100">
@@ -196,8 +197,7 @@
                                     <div class="fbox-content border-0">
                                         <h3 class="text-transform-none ls-0 fw-semibold">Ordonnance en ligne<span
                                                 class="subtitle fw-light ls-0">Scanner et Mettez en ligne votre
-                                                ordonnance pour
-                                                la faire parvenir à votre pharmacie.</span></h3>
+                                                ordonnance pour la faire parvenir à votre pharmacie.</span></h3>
                                         <a href="#" class="button-link border-0 color">Lire plus</a>
                                     </div>
                                 </div>
@@ -212,8 +212,7 @@
                                     <div class="fbox-content border-0">
                                         <h3 class="text-transform-none ls-0 fw-semibold">Conseils<span
                                                 class="subtitle fw-light ls-0">Créer votre compte client et Recevez des
-                                                conseils
-                                                de votre pharmacien à distance.</span></h3>
+                                                conseils de votre pharmacien à distance.</span></h3>
                                         <a href="#" class="button-link border-0 color">Lire Plus</a>
                                     </div>
                                 </div>
@@ -222,16 +221,14 @@
                             <div class="col-lg-3 col-md-6">
                                 <div class="feature-box media-box fbox-bg h-100">
                                     <div class="fbox-media">
-                                        <a href="#"><img src="{{ asset('assets/images/service2.jpeg') }}"
+                                        <a href="#"><img src="{{ asset('assets/images/phone.jpg') }}"
                                                 alt="Featured Box Image"></a>
                                     </div>
                                     <div class="fbox-content border-0">
                                         <h3 class="text-transform-none ls-0 fw-semibold">Application Mobile<span
                                                 class="subtitle fw-light ls-0">Fini les recherches interminables de
-                                                medicaments
-                                                en pharmacie Téléchargez l'application <b>Flavy</b> et rendez plus
-                                                flexible
-                                                votre expérience.</span></h3>
+                                                medicaments en pharmacie Téléchargez l'application <b>Flavy</b> et
+                                                rendez plus flexible votre expérience.</span></h3>
                                         <a href="#" class="button-link border-0 color">Lire Plus</a>
                                     </div>
                                 </div>
@@ -246,8 +243,7 @@
                                     <div class="fbox-content border-0">
                                         <h3 class="text-transform-none ls-0 fw-semibold">Service Livraison<span
                                                 class="subtitle fw-light ls-0">fini les longues files d'attentes,
-                                                Faites vous
-                                                livrer dans un délai très court vos produits.</span></h3>
+                                                Faites vous livrer dans un délai très court vos produits.</span></h3>
                                         <a href="#" class="button-link border-0 color">Lire Plus</a>
                                     </div>
                                 </div>
@@ -260,14 +256,12 @@
                         <div class="col-lg-6">
                             <div class="heading-block border-bottom-0 mt-4 mb-0">
                                 <h2 class="font-secondary ls-1 text-transform-none fw-normal">FLAVY, ma pharmacie en
-                                    ligne !!!
-                                </h2>
+                                    ligne !!!</h2>
                                 <span> Nous nous engageons à répondre à vos besoins en matière de santé. La sécurité de
-                                    vos
-                                    données personnelles et de vos transactions est notre priorité absolue.</span>
+                                    vos données personnelles et de vos transactions est notre priorité absolue.</span>
                                 <a href="#" class=" button-large button-rounded mt-4 ms-0"><img
                                         src="{{ asset('assets/images/dowload_g.png') }}" alt="download" srcset=""> <img
-                                        src="{{ asset('assets/images/download_a.png') }}" alt="download" srcset=""></a>
+                                        src="{{ asset('assets/images/dowload_g.png') }}" alt="download" srcset=""></a>
                                 <div class="line line-sm"></div>
                             </div>
                             <div class="row">
@@ -276,8 +270,7 @@
                                         <div class="counter counter-small color"><span data-from="10" data-to="1136"
                                                 data-refresh-interval="50" data-speed="1000"></span>+</div>
                                         <h5 class="color fw-semibold text-transform-none mt-0"
-                                            style="font-size: 16px;">
-                                            Utilisateur Mobile</h5>
+                                            style="font-size: 16px;">Utilisateur Mobile</h5>
                                     </div>
                                 </div>
 
@@ -401,14 +394,11 @@
 
                                 </div>
                                 <span class="border-bottom-0 mb-0 mx-auto" style="padding: 1rem;">L'application FLAVY
-                                    est
-                                    extrêmement conviviale, conçue pour simplifier la vie de nos parents en leur
-                                    permettant de
-                                    se retrouver aisément et de commander leurs médicaments dans leur pharmacie fidèle
-                                    en toute
-                                    simplicité, sans avoir à fournir un effort considérable. C'est pourquoi elle est
-                                    claire et
-                                    facile à comprendre, sans la moindre ambiguïté.</span>
+                                    est extrêmement conviviale, conçue pour simplifier la vie de nos parents en leur
+                                    permettant de se retrouver aisément et de commander leurs médicaments dans leur
+                                    pharmacie fidèle en toute simplicité, sans avoir à fournir un effort considérable.
+                                    C'est pourquoi elle est claire et facile à comprendre, sans la moindre
+                                    ambiguïté.</span>
 
                             </div>
 
@@ -418,10 +408,10 @@
                                         <h3>1.Télécharger L'application mobile.</h3>
                                     </div>
                                     <div class="table_containt">
-                                        <p>L'application flavy est telechargeable sur playstore et apple store, legere,
-                                            securiser, conviviale et facile à uiliser. <br>
+                                        <p>L'application flavy est téléchargeable sur playstore et apple store, légère,
+                                            securisée, conviviale et facile à uiliser. <br>
                                             Une veritable application de mise en relation du patient à sa pharmacie.<br>
-                                            Ameliorant ainsi la qualité de service.<br>
+                                            Améliorant ainsi la qualité de service.<br>
                                         </p>
                                     </div>
                                 </div>
@@ -432,31 +422,25 @@
                                         </h3>
                                     </div>
                                     <div class="table_containt">
-                                        <p>L'inscription a l'application comprend vos information suivants : nom,
-                                            taille, poids,
-                                            assurance, ... pour permet l'indentification du compte et par la suite se
-                                            renseigner
-                                            au pres de votre pharmacien ou phamarcie pour le code unique de la pharmacie
-                                            pour
-                                            permet le rattachement a votre pharmacie ainsi vous pouvez effectuez toutes
-                                            vos
-                                            transaction en toute securite et chiffré.</p>
+                                        <p>L'inscription à l'application comprend vos informations suivantes : nom,
+                                            taille, poids, assurance, ... pour permettre l'indentification du compte et
+                                            par la suite se renseigner au près de votre pharmacien ou phamarcie pour le
+                                            code unique de la pharmacie, celle-ci permettra le rattachement à votre
+                                            pharmacie pour ainsi effectuez toutes vos transaction en toute securité en
+                                            la chiffrant.</p>
                                     </div>
                                 </div>
 
                                 <div class="table">
                                     <div class="table_header">
-                                        <h3>3.Passer commande dans ça pharmacie avec ou sans ordonnance.</h3>
+                                        <h3>3.Passer commande dans sa pharmacie avec ou sans ordonnance.</h3>
                                     </div>
                                     <div class="table_containt">
                                         <p>fini les attentes interminable! Votre application Flavy vous permet de passer
-                                            commande dans votre pharmacie apres inscription en scannant votre ordonnance
-                                            et
-                                            l'envoyer a votre pharmacie fidèle ainsi vous recevez une facture de
-                                            celle-ci en
-                                            vous confiment la disponibilité du produit avec les prix en temps réel;
-                                            possibilité
-                                            de payer en ligne.</p>
+                                            commande dans votre pharmacie après inscription en scannant votre ordonnance
+                                            et en l'envoyant a votre pharmacie. Ainsi celle-ci vous confirmera la
+                                            disponibilité du produit et vous recevrez la facture en temps réel;
+                                            possibilité de payer en ligne.</p>
                                     </div>
                                 </div>
 
@@ -467,12 +451,9 @@
                                     <div class="table_containt">
                                         <p>Surement la question sur la disponibilité du produit se pose? <br>
                                             Raison pour laquelle il ya cette fonctionnalité Rechercher des medicaments
-                                            en
-                                            pharmacie, elle permet juste en scannant votre ordonnance ou ecrire le nom
-                                            du
-                                            produit, de Rechercher le produit pharmaceutique à votre place et vous
-                                            indique où
-                                            est ce que vous pouvez trouver le produit.
+                                            en pharmacie, elle permet juste en scannant votre ordonnance ou ecrire le
+                                            nom du produit, de Rechercher le produit pharmaceutique à votre place et
+                                            vous indique où est ce que vous pouvez trouver le produit.
                                         </p>
                                     </div>
                                 </div>
@@ -482,40 +463,34 @@
                                         <h3>5.Voir les pharmacies de garde dans sa communes.</h3>
                                     </div>
                                     <div class="table_containt">
-                                        <p>Avec votre application mobile Flavy c'est tres facile de trouver la pharmacie
-                                            de
-                                            garde au milieu de la nuit pour vos urgence. <br>un guain de temps.</p>
+                                        <p>Avec votre application mobile Flavy c'est très facile de trouver la pharmacie
+                                            de garde pour vos urgences, même à des heures tartive. <br>un gain de temps.
+                                        </p>
                                     </div>
                                 </div>
-
                                 <div class="table">
                                     <div class="table_header">
                                         <h3>6.Payer et se faire livrer ses produits en toutes sécurités.</h3>
                                     </div>
                                     <div class="table_containt">
-                                        <p>fini les monnaies en pharmacie !!!, fini les erruptions, les imprevus en
-                                            pharmacie;
-                                            L'application favy vous offre un moyen de paiement en ligne et la
-                                            possibilité de se
-                                            faire livrer le produit si vous le voulez bien sûr.</p>
+                                        <p>fini les defauts de monnaie en pharmacie !!!, fini les erruptions, les
+                                            imprevus en pharmacie; L'application favy vous offre un moyen de paiement en
+                                            ligne et la possibilité de se faire livrer le produit si vous le voulez bien
+                                            sûr.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="section m-0 bg-transparent">
                     <div class="container">
                         <div class="heading-block text-center border-bottom-0 mx-auto" style="max-width: 640px">
                             <h3 class="text-transform-none font-secondary fw-normal" style="font-size: 36px;">Nos
-                                Partenaires.
-                            </h3>
+                                Partenaires.</h3>
                             <span><b>Ces partenariats renforcent notre engagement envers la qualité, l'accessibilité et
-                                    la
-                                    commodité, tout en vous offrant une variété d'options pour prendre en charge votre
-                                    santé et
-                                    votre bien-être.</b></span>
+                                    la commodité, tout en vous offrant une variété d'options pour prendre en charge
+                                    votre santé et votre bien-être.</b></span>
                         </div>
                         <div class="row mt-5">
                             <div class="partnaire_slider">
@@ -537,49 +512,40 @@
                                     </div>
 
                                     <div class="part_slide">
-                                        <img src="{{ asset("assets/images/ro.jpeg") }}" alt="" srcset="">
+                                        <img src="{{ asset('assets/images/ro.jpeg') }}" alt="" srcset="">
                                     </div>
-
                                     <!-- DOUBLON DES SLIDES DES PARTENAIRE -->
-
                                     <div class="part_slide">
                                         <img src="{{ asset('assets/images/uta.jpeg') }}" alt="" srcset="">
                                     </div>
-
                                     <div class="part_slide">
                                         <img src="{{ asset('assets/images/part1.png') }}" alt="" srcset="">
                                     </div>
-
                                     <div class="part_slide">
                                         <img src="{{ asset('assets/images/part2.png') }}" alt="" srcset="">
                                     </div>
-
                                     <div class="part_slide">
                                         <img src="{{ asset('assets/images/iscat.jpeg') }}" alt="" srcset="">
                                     </div>
-
                                     <div class="part_slide">
-                                        <img src="{{ asset("assets/images/ro.jpeg") }}" alt="" srcset="">
+                                        <img src="{{ asset('assets/images/ro.jpeg') }}" alt="" srcset="">
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="container mt-6">
                     <div class="heading-block text-center border-bottom-0 mx-auto" style="max-width: 640px">
                         <h3 class="text-transform-none font-secondary fw-normal" style="font-size: 36px;">Besoin
                             d'aide?</h3>
                         <span>N'hésitez pas à contacter nos différentes adresse ci-dessous pour plus de guide au niveau
-                            de notre
-                            application mobile.<br><b>fiable et securisée.</b></span>
+                            de notre application mobile.<br><b>fiable et securisée.</b></span>
                     </div>
                     <div class="row contact-properties">
                         <div class="col-md-4">
                             <a href="#"
-                                style="background: url('{{ asset('assets/images/adresse.png') }}') no-repeat center center; background-size: cover;">
+                                style="background: url({{ asset('assets/images/adresse.png') }}) no-repeat center center; background-size: cover;">
                                 <div class="vertical-middle dark text-center">
                                     <div class="heading-block m-0 border-0">
                                         <h3 class="text-capitalize fw-normal font-secondary">Localisation Géographique
@@ -598,9 +564,10 @@
                                 <div class="vertical-middle dark text-center">
                                     <div class="heading-block m-0 border-0">
                                         <h3 class="text-capitalize fw-normal font-secondary">Appel Téléphonique</h3>
-                                        <span style="margin-top: 50px; font-size: 18px; font-weight: 100;">
+                                        <span style="margin-top: 70px; font-size: 18px; font-weight: 100;">
                                             Appele Nous<br>
-                                            +225 07-07-29-36-37
+                                            +225 07-07-29-36-37 <br>
+                                            +225 07-88-42-01-92
                                         </span>
                                     </div>
                                 </div>
@@ -626,141 +593,140 @@
         </section>
         <!-- #content end -->
 
-        <!-- Footer ============================================= -->
-        <footer id="footer" class="dark">
-            <div class="container">
-                <!-- Footer Widgets ============================================= -->
-                <div class="footer-widgets-wrap">
-                    <div class="row col-mb-50">
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="widget">
-                                <b>
-                                    <p><b>FLAVY</b> <strong>LA</strong>, <strong>PHARMACIE</strong> &amp;
-                                        <strong>DIGITAL</strong> basée en AFRIQUE.
-                                    </p>
-                                </b>
+        <!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+			<div class="container">
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
 
-                                <div
-                                    style="background: url('{{ asset('assets/images/adresse.png') }}') no-repeat center center; background-size: 100%;">
-                                    <address>
-                                        <strong>Siège:</strong><br>
-                                        Abidjan, <br>
-                                        COCODY<br>
-                                    </address>
-                                    <abbr title="Phone Number"><strong>Téléphone:</strong></abbr> (+225)
-                                    07-07-29-36-37<br>
-                                    <!-- <abbr title="Fax"><strong>Fax:</strong></abbr> (1) 11 4752 1433<br> -->
-                                    <abbr title="Email Address"><strong>Email:</strong></abbr> groupflavy@gmail.com
-                                </div>
+					<div class="row col-mb-50">
+						<div class="col-sm-6 col-lg-3">
+							<div class="widget">
 
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="widget widget_links">
+								<b><p><b>FLAVY</b> <strong>LA</strong> <strong>PHARMACIE</strong> &amp; <strong>DIGITAL</strong> basée en AFRIQUE.</p></b>
 
-                                <h4><b>Politique et condition d'Utilisateur.</b></h4>
+								<div style="background: url({{ asset('assets/images/adresse.png') }}) no-repeat center center; background-size: 100%;">
+									<address>
+										<strong>Siège:</strong><br>
+										 Abidjan, <br>
+										 COCODY<br>
+									</address>
+									<abbr title="Phone Number"><strong>Téléphone:</strong></abbr> <br>(+225) 07-07-29-36-37  <br>(+225) 07-88-42-01-92<br>
+									<!-- <abbr title="Fax"><strong>Fax:</strong></abbr> (1) 11 4752 1433<br> -->
+									<abbr title="Email Address"><strong>Email:</strong></abbr> groupflavy@gmail.com
+								</div>
 
-                                <ul>
-                                    <li><a href="">Documentation</a></li>
-                                    <li><a href="">Feedback</a></li>
-                                    <li><a href=" ">Plugins</a></li>
+							</div>
+						</div>
 
-                                </ul>
+						<div class="col-sm-6 col-lg-3">
+							<div class="widget widget_links">
 
-                            </div>
-                        </div>
+								<h4><b>Politique et condition d'Utilisateur.</b></h4>
 
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="widget widget_links">
+								<ul>
+									<li><a href="">Documentation</a></li>
+									<li><a href="">Feedback</a></li>
+									<li><a href=" ">Plugins</a></li>
+									
+								</ul>
 
-                                <h4><b>Blog.</b></h4>
+							</div>
+						</div>
 
-                                <ul>
-                                    <li><a href="#">Documentation</a></li>
-                                    <li><a href="#">Feedback</a></li>
-                                    <li><a href="#">Plugins</a></li>
+						<div class="col-sm-6 col-lg-3">
+							<div class="widget widget_links">
 
-                                </ul>
+								<h4><b>Blog.</b></h4>
 
-                            </div>
-                        </div>
+								<ul>
+									<li><a href="#">Documentation</a></li>
+									<li><a href="#">Feedback</a></li>
+									<li><a href="#">Plugins</a></li>
+						
+								</ul>
 
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="widget text-center" style="border: 2px dashed #AAA; padding: 30px">
-                                <h3><b>TéLécharger Maintenant L'application.</b><br>
-                                    <a href="#"><img src="{{ asset('assets/images/dowload_g.png') }}"
-                                            alt="" srcset=""></a><!-- lien de techargement apk -->
-                                    Sur Android <span style="font-size: 40px;">30%</span> Off*
-                                </h3>
-                                <em style="color: #999;"><small>(Chap Chap)</small></em><br>
-                                <img src="{{ asset('assets/images/download_a.png') }}" alt="" srcset="">
-                                <span>pour APPLE <b style="color:red;">Service momentanement
-                                        indisponible.</b></span><br>
+							</div>
+						</div>
 
-                            </div>
-                        </div>
-                    </div>
+						<div class="col-sm-6 col-lg-3">
+							<div class="widget text-center" style="border: 2px dashed #AAA; padding: 30px">
+								<h3><b>TéLécharger Maintenant L'application.</b><br>
+									<a href="#"><img src="{{ asset('assets/images/dowload_g.png') }}" alt="" srcset=""></a><!-- lien de techargement apk -->
+								Sur Android <span style="font-size: 40px;">30%</span> Off*</h3>
+								<em style="color: #999;"><small>(Chap Chap)</small></em><br>
+								<img src="{{ asset('assets/images/download_a.png') }}" alt="" srcset="">
+								<span>pour APPLE <b style="color:red;">Service momentanement indisponible.</b></span><br>
+								
+							</div>
+						</div>
+					</div>
 
-                </div><!-- .footer-widgets-wrap end -->
-            </div>
-            <div class="line m-0"></div>
-            <!-- Copyrights ============================================= -->
-            <div id="copyrights">
-                <div class="container">
+				</div><!-- .footer-widgets-wrap end -->
+			</div>
 
-                    <div class="row justify-content-between align-items-center col-mb-30">
-                        <div class="col-12 col-lg-auto text-center text-lg-start">
-                            Copyrights &copy; <b><em>2024 All Rights Reserved by Charolite Technologie</em></b>.
-                        </div>
+			<div class="line m-0"></div>
 
-                        <div class="col-12 col-lg-auto text-center text-lg-end">
-                            <div class="d-flex">
-                                <a href="#" class="social-icon si-small text-white bg-facebook">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+				<div class="container">
 
-                                <a href="#" class="social-icon si-small text-white bg-twitter">
-                                    <i class="fa-brands fa-twitter"></i>
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a>
+					<div class="row justify-content-between align-items-center col-mb-30">
+						<div class="col-12 col-lg-auto text-center text-lg-start">
+							Copyrights &copy; <b><em>2024 All Rights Reserved by Charolite Technologie</em></b>.
+						</div>
 
-                                <a href="#" class="social-icon si-small text-white bg-google">
-                                    <i class="fa-brands fa-google"></i>
-                                    <i class="fa-brands fa-google"></i>
-                                </a>
+						<div class="col-12 col-lg-auto text-center text-lg-end">
+							<div class="d-flex">
+								<a href="#" class="social-icon si-small text-white bg-facebook">
+									<i class="fa-brands fa-facebook-f"></i>
+									<i class="fa-brands fa-facebook-f"></i>
+								</a>
 
-                                <a href="#" class="social-icon si-small text-white bg-pinterest">
-                                    <i class="fa-brands fa-pinterest-p"></i>
-                                    <i class="fa-brands fa-pinterest-p"></i>
-                                </a>
+								<a href="#" class="social-icon si-small text-white bg-twitter">
+									<i class="fa-brands fa-twitter"></i>
+									<i class="fa-brands fa-twitter"></i>
+								</a>
 
-                                <a href="#" class="social-icon si-small text-white bg-vimeo">
-                                    <i class="fa-brands fa-vimeo-v"></i>
-                                    <i class="fa-brands fa-vimeo-v"></i>
-                                </a>
+								<a href="#" class="social-icon si-small text-white bg-google">
+									<i class="fa-brands fa-google"></i>
+									<i class="fa-brands fa-google"></i>
+								</a>
 
-                                <a href="#" class="social-icon si-small text-white bg-github">
-                                    <i class="fa-brands fa-github"></i>
-                                    <i class="fa-brands fa-github"></i>
-                                </a>
+								<a href="#" class="social-icon si-small text-white bg-pinterest">
+									<i class="fa-brands fa-pinterest-p"></i>
+									<i class="fa-brands fa-pinterest-p"></i>
+								</a>
 
-                                <a href="#" class="social-icon si-small text-white bg-yahoo">
-                                    <i class="fa-brands fa-yahoo"></i>
-                                    <i class="fa-brands fa-yahoo"></i>
-                                </a>
+								<a href="#" class="social-icon si-small text-white bg-vimeo">
+									<i class="fa-brands fa-vimeo-v"></i>
+									<i class="fa-brands fa-vimeo-v"></i>
+								</a>
 
-                                <a href="#" class="social-icon si-small text-white bg-linkedin">
-                                    <i class="fa-brands fa-linkedin"></i>
-                                    <i class="fa-brands fa-linkedin"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+								<a href="#" class="social-icon si-small text-white bg-github">
+									<i class="fa-brands fa-github"></i>
+									<i class="fa-brands fa-github"></i>
+								</a>
 
-                </div>
-            </div><!-- #copyrights end -->
-        </footer><!-- #footer end -->
+								<a href="#" class="social-icon si-small text-white bg-yahoo">
+									<i class="fa-brands fa-yahoo"></i>
+									<i class="fa-brands fa-yahoo"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white bg-linkedin">
+									<i class="fa-brands fa-linkedin"></i>
+									<i class="fa-brands fa-linkedin"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
 
     </div><!-- #wrapper end -->
 
